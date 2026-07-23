@@ -15,12 +15,39 @@
        -Create a new node with total % 10, update the carry as total // 10, and attach the node to the result list.
        -Continue until both lists and the carry are exhausted, then return the result starting from dummy.next
 --------------------------------------------------------------------------------------------
-
 ## DAY 3:
        PROBLEM TITLE:
-         Median of Two Sorted Arrays
+       Median of Two Sorted Arrays
+       PROBLEM EXPLANATION:
+       -The problem asks you to find the median of two sorted arrays after combining them.  In this solution, both arrays are merged into a single array and sorted. If the  total number of elements is odd, the middle element is returned as the median. If the total number of elements is even, the median is the average of the two middle elements.
+--------------------------------------------------------------------------------------------
+
+## DAY 4:
+      PROBLEM TITLE:
+        Roman to Integer
       PROBLEM EXPLANATION:
-         -Combine both sorted arrays into a single list and sort it in ascending order.
-        -Calculate the total number of elements in the merged array.
-        -if the total length is odd, the median is the middle element.
-        -if the total length is even, the median is the average of the two middle elements.
+      -Create a dictionary to store the integer value of each Roman numeral symbol.
+      -Traverse the Roman numeral string from left to right.
+      -Compare the current symbol with the next symbol.
+      -If the current value is smaller than the next value, subtract it from the total.
+      -Return the final total as the integer representation of the Roman numeral.
+
+-------------------------------------------------------------------------------------------
+    
+
+
+
+
+
+
+
+
+
+
+## DAY 4:
+     PROBLEM TITLE:
+        
+     PROBLEM EXPLANATION:
+        
+----------------------------------------------------------------------------------------
+
