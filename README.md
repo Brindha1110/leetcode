@@ -32,22 +32,19 @@
       -If the current value is smaller than the next value, subtract it from the total.
       -Return the final total as the integer representation of the Roman numeral.
 
--------------------------------------------------------------------------------------------
-    
-
-
-
-
-
-
-
-
-
-
-## DAY 4:
-     PROBLEM TITLE:
-        
-     PROBLEM EXPLANATION:
-        
 ----------------------------------------------------------------------------------------
+## DAY 5:
+    PROBLEM TITLE:
+      Longest Common Prefix
+    PROBLEM EXPLANATION:
+    -Initialize the first string in the array as the common prefix.
+    -Compare the prefix with each remaining string in the array.
+    -If a string does not start with the current prefix, remove the last character from the prefix until it matches.
+    -Return the final common prefix, or an empty string if no common prefix exists.
+-------------------------------------------------------------------------------------------
+
+
+
+
+
 
