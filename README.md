@@ -42,8 +42,15 @@
     -If a string does not start with the current prefix, remove the last character from the prefix until it matches.
     -Return the final common prefix, or an empty string if no common prefix exists.
 -------------------------------------------------------------------------------------------
-
-
+## DAY 6:
+     PROBLEM TITLE:
+       Remove Duplicates from Sorted Array
+     PROBLEM EXPLANATION:
+    -The array nums is sorted in non-decreasing order, so duplicate elements appear next to each other.
+    -The goal is to remove duplicates in-place without using extra space and return the number of unique elements (k).
+    -The first k positions of nums should contain all the unique elements in their original order.
+    -The values beyond the first k positions do not matter, since only k is used to verify the result.
+--------------------------------------------------------------------------------------------
 
 
 
