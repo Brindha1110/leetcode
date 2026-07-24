@@ -51,7 +51,12 @@
     -The first k positions of nums should contain all the unique elements in their original order.
     -The values beyond the first k positions do not matter, since only k is used to verify the result.
 --------------------------------------------------------------------------------------------
+## DAY 7:
+PROBLEM TITLE:
+     Length of Last Word
+PROBLEM EXPLANATION:
 
 
+     
 
 
