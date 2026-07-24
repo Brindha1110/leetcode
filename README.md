@@ -55,6 +55,12 @@
 PROBLEM TITLE:
      Length of Last Word
 PROBLEM EXPLANATION:
+    -The problem is to find the length of the last word in a given string s.
+    -A word is defined as a sequence of non-space characters.
+    -The input string may contain leading spaces, trailing spaces, or multiple spaces between words.
+    -While finding the last word, all extra spaces should be ignored.
+    -The program should return the number of characters in the last word as an integer.
+--------------------------------------------------------------------------------------------
 
 
      
