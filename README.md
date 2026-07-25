@@ -69,7 +69,16 @@ PROBLEM EXPLANATION:
     -It identifies the gap between the current situation and the desired outcome.
     -A good problem definition explains who is affected and why the problem is important.
     -It provides a clear focus for developing effective solutions.
--------------------------------------------------------------------------------------------    
+------------------------------------------------------------------------------------------- 
+## DAY 9:
+PROBLEM TITLE:
+    Add Binary
+PROBLEM EXPLANATION:
+   -The problem is to add two binary numbers given as strings.
+   -The solution must return their sum as a binary string without converting them to decimal.
+   -It should correctly handle binary addition, including carry values.
+   -The algorithm should work efficiently for binary strings of different lengths.
+--------------------------------------------------------------------------------------------   
 
 
 
