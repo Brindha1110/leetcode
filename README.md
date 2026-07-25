@@ -61,6 +61,16 @@ PROBLEM EXPLANATION:
     -While finding the last word, all extra spaces should be ignored.
     -The program should return the number of characters in the last word as an integer.
 --------------------------------------------------------------------------------------------
+## DAY 8:
+   PROBLEM TITLE:
+      Plus One
+PROBLEM EXPLANATION:
+     -A problem definition is a clear statement that describes the issue or challenge that needs to be solved.
+    -It identifies the gap between the current situation and the desired outcome.
+    -A good problem definition explains who is affected and why the problem is important.
+    -It provides a clear focus for developing effective solutions.
+-------------------------------------------------------------------------------------------    
+
 
 
      
