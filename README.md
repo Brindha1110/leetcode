@@ -79,6 +79,16 @@ PROBLEM EXPLANATION:
    -It should correctly handle binary addition, including carry values.
    -The algorithm should work efficiently for binary strings of different lengths.
 --------------------------------------------------------------------------------------------   
+## DAY 10:
+PROBLEM TITLE:
+    Sqrt(X)
+PROBLEM EXPLANATION:
+    -The problem is to find the integer square root of a non-negative integer x without using built-in square root functions.
+    -This solution uses binary search to efficiently search for the correct square root.
+     If mid × mid is less than or equal to x, it stores mid as the current answer and searches the right half.
+    -Finally, it returns the largest integer whose square is less than or equal to x in O(log x) time and O(1) space.
+
+
 
 
 
