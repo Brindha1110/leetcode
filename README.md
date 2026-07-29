@@ -98,7 +98,18 @@ PROBLEM EXPLANATION:
     -Reverse the direction whenever the top or bottom row is reached, then move to the next row.
     -Concatenate all rows using ''.join(rows) and return the final zigzag-converted string.
 -----------------------------------------------------------------------------------------------
-
+## DAY 12:
+PROBLEM TITLE:
+    Container With Most Water
+PROBLEM EXPLANATION:
+    -Initialize two pointers: left at the beginning and right at the end of the array.
+    -Calculate the water area using width × min(height[left], height[right]).
+    -Update max_water if the current area is larger than the previous maximum.
+    -Move the pointer with the shorter height inward, since only that can potentially increase the area.
+    -Repeat until the pointers meet, then return max_water.
+    Time Complexity: O(n)
+    Space Complexity: O(1)
+-----------------------------------------------------------------------------------------------
 
 
 
