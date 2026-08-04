@@ -119,6 +119,23 @@ PROBLEM EXPLANATION:
    Your task is to remove the duplicate nodes so that each distinct value appears only once in the list.
    -The relative order of the remaining nodes should not be changed, and only the extra duplicate nodes should be removed.
    -Return the head of the modified linked list containing only unique elements.
+-------------------------------------------------------------------------------------------## DAY 14:
+PROBLEM TITLE:
+Reverse Integer
+PROBLEM EXPLANATION:
+   -The problem occurs because the current system or process does not meet the required needs.
+   -This leads to delays, errors, or reduced efficiency in completing tasks.
+   -Users face difficulties in achieving the desired outcome quickly and accurately.
+   -Existing solutions may be costly, time-consuming, or lack important features.
+    -Therefore, a better solution is needed to improve performance, reliability, and user experience.
+
+
+
+
+
+
+
+
 
 
 
