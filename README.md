@@ -127,8 +127,18 @@ PROBLEM EXPLANATION:
    -This leads to delays, errors, or reduced efficiency in completing tasks.
    -Users face difficulties in achieving the desired outcome quickly and accurately.
    -Existing solutions may be costly, time-consuming, or lack important features.
-    -Therefore, a better solution is needed to improve performance, reliability, and user experience.
-
+    -Therefore, a better solution is needed to improve performance, reliability, and user experience
+-------------------------------------------------------------------------------------------
+## DAY 15:
+PROBLEM TITLE:
+String to Integer(atoi)
+PROBLEM EXPLANATION:
+  -Given a 32-bit signed integer x, reverse its digits and return the reversed integer.
+   -If x is negative, the reversed number should also remain negative.
+   -While reversing, ensure the result stays within the 32-bit signed integer range (-2³¹ to 2³¹ - 1).
+   -If reversing the integer causes an overflow, return 0.
+   -The solution should efficiently reverse the digits using arithmetic operations without converting the integer to a string
+-------------------------------------------------------------------------------------------
 
 
 
