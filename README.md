@@ -110,6 +110,18 @@ PROBLEM EXPLANATION:
     Time Complexity: O(n)
     Space Complexity: O(1)
 -----------------------------------------------------------------------------------------------
+## DAY 13:
+PROBLEM TITLE:
+Remove Duplicates from Sorted List
+PROBLEM EXPLANATION:
+   -You are given the head of a sorted singly linked list, where the nodes are arranged in non-decreasing order.
+   -Since the list is sorted, any duplicate values will always appear consecutively.
+   Your task is to remove the duplicate nodes so that each distinct value appears only once in the list.
+   -The relative order of the remaining nodes should not be changed, and only the extra duplicate nodes should be removed.
+   -Return the head of the modified linked list containing only unique elements.
+
+
+
 
 
 
