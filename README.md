@@ -139,8 +139,16 @@ PROBLEM EXPLANATION:
    -If reversing the integer causes an overflow, return 0.
    -The solution should efficiently reverse the digits using arithmetic operations without converting the integer to a string
 -------------------------------------------------------------------------------------------
-
-
+## DAY 16:
+PROBLEM TITLE:
+Longest Palindromic Substring
+PROBLEM EXPLANATION:
+   -Given a string s, find the longest substring that is a palindrome.
+    -A palindrome is a string that reads the same forward and backward (e.g., "aba", "bb").
+   -The substring must be continuous within the original string.
+   -If there are multiple longest palindromes, returning any one of them is acceptable.
+   -The goal is to return the longest palindromic substring.
+--------------------------------------------------------------------------------------------
 
 
 
