@@ -152,6 +152,12 @@ PROBLEM EXPLANATION:
 ## DAY 17:
 Longest Substring Without Repeating Characters
 PROBLEM EXPLANATION:
+  -Given a string s, find the length of the longest substring without repeating characters.
+   -A substring must be a continuous sequence of characters.
+  -The substring should contain only unique characters, with no duplicates.
+  -Return the maximum possible length of such a substring.
+  -For example, if s = "abcabcbb", the answer is 3 because "abc" is the longest substring without repeating characters
+--------------------------------------------------------------------------------------------
 
 
 
