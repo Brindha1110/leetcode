@@ -150,6 +150,7 @@ PROBLEM EXPLANATION:
    -The goal is to return the longest palindromic substring.
 --------------------------------------------------------------------------------------------
 ## DAY 17:
+PROBLEM TITLE:
 Longest Substring Without Repeating Characters
 PROBLEM EXPLANATION:
   -Given a string s, find the length of the longest substring without repeating characters.
@@ -158,6 +159,17 @@ PROBLEM EXPLANATION:
   -Return the maximum possible length of such a substring.
   -For example, if s = "abcabcbb", the answer is 3 because "abc" is the longest substring without repeating characters
 --------------------------------------------------------------------------------------------
+## DAY 17:
+PROBLEM TITLE:
+Palindrome Number
+PROBLEM EXPLANATION:
+   -Given an integer x, determine whether it reads the same forward and backward.
+   -A palindrome number remains unchanged when its digits are reversed (e.g., 121, 1331).
+   -Negative numbers are not palindromes because the minus sign appears only at the beginning.
+   -Numbers ending with 0 (except 0 itself) also cannot be palindromes since they would start with 0 after reversing.
+   -The goal is to return True if x is a palindrome; otherwise, return False
+--------------------------------------------------------------------------------------------
+
 
 
 
