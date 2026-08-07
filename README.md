@@ -159,7 +159,7 @@ PROBLEM EXPLANATION:
   -Return the maximum possible length of such a substring.
   -For example, if s = "abcabcbb", the answer is 3 because "abc" is the longest substring without repeating characters
 --------------------------------------------------------------------------------------------
-## DAY 17:
+## DAY 18
 PROBLEM TITLE:
 Palindrome Number
 PROBLEM EXPLANATION:
