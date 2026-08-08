@@ -159,7 +159,7 @@ PROBLEM EXPLANATION:
   -Return the maximum possible length of such a substring.
   -For example, if s = "abcabcbb", the answer is 3 because "abc" is the longest substring without repeating characters
 --------------------------------------------------------------------------------------------
-## DAY 18
+## DAY 18:
 PROBLEM TITLE:
 Palindrome Number
 PROBLEM EXPLANATION:
@@ -168,7 +168,24 @@ PROBLEM EXPLANATION:
    -Negative numbers are not palindromes because the minus sign appears only at the beginning.
    -Numbers ending with 0 (except 0 itself) also cannot be palindromes since they would start with 0 after reversing.
    -The goal is to return True if x is a palindrome; otherwise, return False
---------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------## DAY 19:
+PROBLEM TITLE:
+Integer to Roman
+PROBLEM EXPLANATION:
+   -The problem is to convert a given integer num into its Roman numeral representation.
+   -We store Roman values and symbols in roman_map from largest to smallest.
+   -For each value, num // value finds how many times that Roman symbol can be used.
+   -We add the symbol to result and update num using num %= value.
+   -We repeat this process until num becomes 0, using a greedy approach.
+   -Finally, we join all the symbols in result and return the Roman numeral
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
