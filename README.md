@@ -168,7 +168,8 @@ PROBLEM EXPLANATION:
    -Negative numbers are not palindromes because the minus sign appears only at the beginning.
    -Numbers ending with 0 (except 0 itself) also cannot be palindromes since they would start with 0 after reversing.
    -The goal is to return True if x is a palindrome; otherwise, return False
--------------------------------------------------------------------------------------------## DAY 19:
+-------------------------------------------------------------------------------------------## DAY 1
+DAY 19:
 PROBLEM TITLE:
 Integer to Roman
 PROBLEM EXPLANATION:
@@ -179,8 +180,17 @@ PROBLEM EXPLANATION:
    -We repeat this process until num becomes 0, using a greedy approach.
    -Finally, we join all the symbols in result and return the Roman numeral
 -------------------------------------------------------------------------------------------
-
-
+DAY 19:
+PROBLEM TITLE:
+Find First and Last Position of Element in Sorted Array
+PROBLEM EXPLANATION:
+   -The problem is to find the **first and last position** of a target value in a sorted array.
+   -We use **binary search** instead of scanning the entire array, making the solution efficient.
+   -The `findBound()` function searches for either the first or last occurrence using the `isFirst` flag.
+   -When the target is found, we store its index and continue searching left for the first occurrence or right for the last occurrence.
+   -If the target does not exist, the function returns `[-1, -1]`.
+   -Since binary search is performed twice, the overall **time complexity is O(log n)** and space complexity is **O(1)**
+----------------------------------------------------------------------------------------------------
 
 
 
