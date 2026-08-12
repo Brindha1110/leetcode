@@ -190,9 +190,18 @@ PROBLEM EXPLANATION:
    -When the target is found, we store its index and continue searching left for the first occurrence or right for the last occurrence.
    -If the target does not exist, the function returns [-1, -1].
    -Since binary search is performed twice, the overall *time complexity is O(log n)* and space complexity is *O(1)*
----------------------------------------------------------------------------------------------------   
- 
-
+---------------------------------------------------------------------------------------------------
+ ## DAY 21:
+PROBLEM TITLE:
+Remove Element
+PROBLEM EXPLANATION:
+    -The problem asks us to remove all occurrences of val from the array
+    -We use k to track the position where the next valid element should go
+    -We loop through every element using i
+    -If nums[i] is not equal to val, we copy it to nums[k]
+    -Then, we increase k because we placed one valid element
+    -Finally, k is returned as the number of elements remaining
+----------------------------------------------------------------------------------------------------
 
 
 
