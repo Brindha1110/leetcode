@@ -202,8 +202,10 @@ PROBLEM EXPLANATION:
     -Then, we increase k because we placed one valid element
     -Finally, k is returned as the number of elements remaining
 ----------------------------------------------------------------------------------------------------
-
-
+## DAY 22:
+PROBLEM TITLE:
+Pascal's Triangle
+PROBLEM EXPLANATION:
 
 
 
