@@ -206,6 +206,20 @@ PROBLEM EXPLANATION:
 PROBLEM TITLE:
 Pascal's Triangle
 PROBLEM EXPLANATION:
+  -The goal is to generate Pascal’s Triangle with numRows rows
+  -Each row starts with 1, so we create it using [1] * (i + 1)
+  -The first and last elements of every row always remain 1
+  -Middle elements are calculated by adding two numbers from the previous row
+  -triangle[i - 1][j - 1] + triangle[i - 1][j] calculates each middle value
+  -Finally, every generated row is added to triangle, which is returned
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
