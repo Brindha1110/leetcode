@@ -213,7 +213,18 @@ PROBLEM EXPLANATION:
   -triangle[i - 1][j - 1] + triangle[i - 1][j] calculates each middle value
   -Finally, every generated row is added to triangle, which is returned
 ----------------------------------------------------------------------------------------------------
-
+## DAY 23:
+PROBLEM TITLE:
+Valid Palindrome
+PROBLEM EXPLANATION:
+ Problem Explanation
+ -The problem is to check whether a given string is a **palindrome**.
+ -A palindrome reads the same forward and backward, ignoring spaces, symbols, and case.
+ -The program uses two pointers, `left` and `right`, to compare characters from both ends.
+ -Non-alphanumeric characters are skipped using `isalnum()`.
+ -The characters are converted to lowercase before comparing them.
+ -If all valid characters match, the program returns `True`; otherwise, it returns `False`
+----------------------------------------------------------------------------------------------------
 
 
 
