@@ -212,7 +212,7 @@ PROBLEM EXPLANATION:
   -Middle elements are calculated by adding two numbers from the previous row
   -triangle[i - 1][j - 1] + triangle[i - 1][j] calculates each middle value
   -Finally, every generated row is added to triangle, which is returned
------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 
 
