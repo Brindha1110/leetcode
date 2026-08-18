@@ -225,7 +225,7 @@ PROBLEM TITLE:
  -The characters are converted to lowercase before comparing them.
  -If all valid characters match, the program returns `True`; otherwise, it returns `False`
 ----------------------------------------------------------------------------------------------------
-## DAY 23:
+## DAY 24:
 PROBLEM TITLE:
 Search Insert Position
 PROBLEM TITLE:
