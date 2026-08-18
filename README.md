@@ -216,7 +216,7 @@ PROBLEM EXPLANATION:
 ## DAY 23:
 PROBLEM TITLE:
 Valid Palindrome
-PROBLEM EXPLANATION:
+PROBLEM TITLE:
  Problem Explanation
  -The problem is to check whether a given string is a **palindrome**.
  -A palindrome reads the same forward and backward, ignoring spaces, symbols, and case.
@@ -225,6 +225,10 @@ PROBLEM EXPLANATION:
  -The characters are converted to lowercase before comparing them.
  -If all valid characters match, the program returns `True`; otherwise, it returns `False`
 ----------------------------------------------------------------------------------------------------
+## DAY 23:
+PROBLEM TITLE:
+Search Insert Position
+PROBLEM TITLE:
 
 
 
