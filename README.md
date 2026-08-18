@@ -229,6 +229,13 @@ PROBLEM TITLE:
 PROBLEM TITLE:
 Search Insert Position
 PROBLEM TITLE:
+ -The problem is to find the correct position of a target value in a sorted array.
+ -The program uses the binary search method to search for the target efficiently.
+ -It compares the target with the middle element of the array.
+ -If the target is greater, the search continues in the right half.
+ -If the target is smaller, the search continues in the left half.
+ -If the target is not found, the program returns the position where it should be inserted
+---------------------------------------------------------------------------------------------------
 
 
 
