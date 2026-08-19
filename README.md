@@ -228,7 +228,7 @@ PROBLEM TITLE:
 ## DAY 24:
 PROBLEM TITLE:
 Search Insert Position
-PROBLEM TITLE:
+ Problem Explanation
  -The problem is to find the correct position of a target value in a sorted array.
  -The program uses the binary search method to search for the target efficiently.
  -It compares the target with the middle element of the array.
@@ -236,7 +236,17 @@ PROBLEM TITLE:
  -If the target is smaller, the search continues in the left half.
  -If the target is not found, the program returns the position where it should be inserted
 ---------------------------------------------------------------------------------------------------
-
+## DAY 25:
+PROBLEM TITLE:
+Merge Two Sorted Lists
+Problem Explanation
+  -We have two sorted linked lists and need to merge them into one sorted list.
+  -A dummy node is created to easily build the merged list.
+  -Compare the current nodes of list1 and list2, and choose the smaller one.
+  -Attach the chosen node to current and move that list forward.
+  -When one list becomes empty, attach the remaining nodes of the other list.
+  -Return dummy.next, which is the head of the merged sorted list
+----------------------------------------------------------------------------------------------------
 
 
 
