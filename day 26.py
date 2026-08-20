@@ -1,6 +1,6 @@
 class Solution:
     def removeElement(self, nums: list[int], val: int) -> int:
-        k = 0  # Pointer for placing elements not equal to val
+        k = 0  # not Pointer for placing elements not equal to val
         
         for i in range(len(nums)):
             if nums[i] != val:

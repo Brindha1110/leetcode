@@ -247,6 +247,19 @@ Problem Explanation
   -When one list becomes empty, attach the remaining nodes of the other list.
   -Return dummy.next, which is the head of the merged sorted list
 ----------------------------------------------------------------------------------------------------
+## DAY 26:
+PROBLEM TITLE:
+not Pointer for placing elements not equal to val
+Problem Explanation:
+  -The goal is to remove all occurrences of `val` from the array.
+  -We use two pointers: `i` to scan the array and `k` to place valid elements.
+  - `i` checks every element one by one.
+  - If `nums[i]` is not equal to `val`, we copy it to `nums[k]`.
+  - Then we increment `k` to move to the next position.
+  - After the loop, the first `k` elements contain all elements except `val`.
+  -Finally, we return `k`, which is the new length of the array
+----------------------------------------------------------------------------------------------------
+
 
 
 
