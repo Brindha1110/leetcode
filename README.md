@@ -259,8 +259,18 @@ Problem Explanation:
   - After the loop, the first `k` elements contain all elements except `val`.
   -Finally, we return `k`, which is the new length of the array
 ----------------------------------------------------------------------------------------------------
-
-
+## DAY 27:
+PROBLEM TITLE:
+Valid Parentheses
+Problem Explanation:
+   -We use a stack to keep track of opening brackets like (, {, and [.
+   -The mapping dictionary stores which opening bracket matches each closing bracket.
+   -For every character, if it is an opening bracket, we push it onto the stack.
+   -If it is a closing bracket, we remove the top element from the stack.
+   -We check whether the opening bracket matches the current closing bracket.
+   -If it does not match, we immediately return False.
+   -At the end, if the stack is empty, all brackets are properly matched, so we return True
+---------------------------------------------------------------------------------------------
 
 
 
