@@ -258,7 +258,7 @@ Problem Explanation:
   - Then we increment `k` to move to the next position.
   - After the loop, the first `k` elements contain all elements except `val`.
   -Finally, we return `k`, which is the new length of the array
-----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
 ## DAY 27:
 PROBLEM TITLE:
 Valid Parentheses
@@ -271,10 +271,18 @@ Problem Explanation:
    -If it does not match, we immediately return False.
    -At the end, if the stack is empty, all brackets are properly matched, so we return True
 ---------------------------------------------------------------------------------------------
-
-
-
-
+## DAY 27:
+PROBLEM TITLE:
+Find the Index of the First Occurrence in a String
+Problem Explanation:
+  -The problem is to find the first occurrence of needle inside haystack
+  -If needle is empty, return 0
+  -We use the KMP (Knuth-Morris-Pratt) algorithm for efficient searching
+  -First, build the LPS (Longest Prefix Suffix) array for needle
+  -LPS helps us skip unnecessary comparisons when characters don't match
+  -Then, compare both strings using two pointers and use LPS on mismatches
+  -Return the starting index if found; otherwise, return -1.
+---------------------------------------------------------------------------------------------
 
 
 
