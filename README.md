@@ -271,7 +271,7 @@ Problem Explanation:
    -If it does not match, we immediately return False.
    -At the end, if the stack is empty, all brackets are properly matched, so we return True
 ---------------------------------------------------------------------------------------------
-## DAY 27:
+## DAY 28:
 PROBLEM TITLE:
 Find the Index of the First Occurrence in a String
 Problem Explanation:
